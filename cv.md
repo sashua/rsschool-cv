@@ -29,11 +29,23 @@
 
 ## Experience
 
+### 1C Software Developer
+
+**Slavutych-Service** _(Jan 2009 - Aug 2020)_
+
+### Embedded Software Developer
+
+**Slavutych-Service** _(Mar 2006 - Dec 2008)_
+
+### IT Specialist
+
+**Slavutych-Service** _(Oct 2005 - Feb 2006)_
+
 ## Education
 
-### Kharkiv National University of Radio Electronics
+### Master of Science in Electronics
 
-**Master of Science in Electronics** _(September 2000 - July 2005, Kharkiv, Ukraine)_
+**Kharkiv National University of Radio Electronics** _(Sep 2000 - Jul 2005, Kharkiv, Ukraine)_
 
 ## Projects
 
