@@ -1,4 +1,4 @@
-# Oleksandr Sereda
+# Alexander Sereda
 
 ## Contacts
 
