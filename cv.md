@@ -31,6 +31,10 @@
 
 ## Education
 
+### Kharkiv National University of Radio Electronics
+
+**Master of Science in Electronics** _(September 2000 - July 2005, Kharkiv, Ukraine)_
+
 ## Projects
 
 ---
