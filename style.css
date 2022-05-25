@@ -14,6 +14,10 @@
 }
 
 /* === DEFAULTS === */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-style: var(--primary-font);
   font-size: 20px;
@@ -70,13 +74,13 @@ ul {
 
 /* === HEADER === */
 .header {
+  position: relative;
   background-color: var(--secondary-bg-color);
 }
 
 .header::after {
   content: "";
   position: absolute;
-  display: block;
   border-top: 125px solid var(--secondary-bg-color);
   border-right: 1440px solid transparent;
 }
@@ -84,8 +88,8 @@ ul {
 .header > .inner {
   display: flex;
   justify-content: space-between;
-  padding-top: 180px;
-  padding-bottom: 85px;
+  padding-top: 150px;
+  padding-bottom: 75px;
 }
 
 .header .primary-title {
@@ -186,20 +190,90 @@ main.inner {
 }
 
 .work-link {
+  font-weight: 700;
   color: var(--accent-color);
 }
 
 .work-link::after {
-  content: "→";
+  content: "\279E";
   margin-left: 5px;
-}
-
-.work-link:hover,
-.work-link:focus {
-  font-weight: 700;
 }
 
 .work-link:hover::after,
 .work-link:focus::after {
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+/* === FOOTER === */
+.footer {
+  position: relative;
+  background-color: var(--secondary-bg-color);
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: -125px;
+  border-top: 125px solid transparent;
+  border-right: 1440px solid var(--secondary-bg-color);
+}
+
+.footer > .inner {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.footer .primary-title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 66px;
+}
+
+.footer .contacts-list {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.footer .contact-item:not(:first-child) {
+  padding-left: 1.5em;
+}
+
+.footer .contact-item:not(:last-child) {
+  padding-right: 1.5em;
+  border-right: 5px solid var(--accent-color);
+}
+
+.footer .contact-link {
+  font-size: 36px;
+  color: var(--accent-color);
+}
+
+.footer .contact-link:hover,
+.footer .contact-link:focus {
+  text-decoration: underline;
+}
+
+.footer .social-list {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-item:not(:last-child) {
+  padding-right: 45px;
+}
+
+.footer .social-link {
+  color: var(--accent-color);
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+  text-decoration: underline;
+}
+
+.footer .social-link > svg {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
 }
