@@ -46,7 +46,7 @@ ul {
 .outer {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .inner {
@@ -54,7 +54,7 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1140px;
+  max-width: 1140px;
 }
 
 .primary-title {
@@ -78,15 +78,23 @@ ul {
   background-color: var(--secondary-bg-color);
 }
 
-.header::after {
+.header::before {
   content: "";
   position: absolute;
-  border-top: 125px solid var(--secondary-bg-color);
-  border-right: 1440px solid transparent;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 135px;
+
+  background-color: var(--secondary-bg-color);
+  --bg-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' preserveAspectRatio='none'><polygon points='0,0 10,0 0,10'/></svg>");
+  -webkit-mask-image: var(--bg-mask);
+  mask-image: var(--bg-mask);
 }
 
 .header > .inner {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 150px;
   padding-bottom: 75px;
@@ -125,13 +133,15 @@ ul {
 /* === MAIN === */
 main.inner {
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: 210px 0;
 }
 
 .main-container {
   width: 635px;
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .main-container section:not(:first-child)::before {
@@ -174,6 +184,8 @@ main.inner {
 /* === SIDE === */
 .side-container {
   width: 350px;
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .side-container section:not(:last-child) {
@@ -213,9 +225,16 @@ main.inner {
 .footer::before {
   content: "";
   position: absolute;
-  top: -125px;
-  border-top: 125px solid transparent;
-  border-right: 1440px solid var(--secondary-bg-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 135px;
+  transform: translateY(-100%);
+
+  background-color: var(--secondary-bg-color);
+  --bg-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' preserveAspectRatio='none'><polygon points='0,10 10,10 10,0'/></svg>");
+  -webkit-mask-image: var(--bg-mask);
+  mask-image: var(--bg-mask);
 }
 
 .footer > .inner {
@@ -232,6 +251,7 @@ main.inner {
 .footer .contacts-list {
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 65px;
 }
 
