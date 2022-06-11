@@ -12,6 +12,19 @@
 
 ### Summary
 
+self-learner, independent and a great team player
+familiar with server-side technologies (NodeJS, Java, .NET, Python, Ruby)
+have some experience in Test Driven Development (TDD)
+Work on cutting-edge technologies
+Improve your skills and learn from top-notch engineers.
+Tackle tough problems and find creative ways to solve them.
+Write TDD and clean code.
+want to be a part of a large cross-functional team and long-term project
+willing to build products for real human beings
+Good knowledge of JavaScript,
+
+Flexible and attentive self-learner with extencive experience in IT support outsourcing. Want to switch my career and become a full-stack web developer. Keen to improve my skills in coding to create practical software with a heavy emphasis on great user experience.
+
 ## Skills
 
 - HTML, CSS, JavaScript
