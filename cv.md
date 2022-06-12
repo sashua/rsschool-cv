@@ -4,8 +4,7 @@
 
 - **Phone**: +380 958-293-584
 - **Email**: sereda.san@gmail.com
-- **Discord**: @sashua
-- **Location**: Ukraine (ready to relocate)
+- **Discord**: sashua#5468
 - [GitHub (sashua)](https://github.com/sashua), [Linked**in** (sashua)](https://linkedin.com/in/sashua)
 
 ## Full Stack JavaScript / React Developer
