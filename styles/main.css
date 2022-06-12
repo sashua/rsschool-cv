@@ -108,11 +108,12 @@ body {
 }
 
 .list__item {
-  line-height: 1.7;
+  margin-bottom: 6px;
 }
 
 .list__item--markered::before {
   content: "▪ ";
+  font-size: inherit;
   color: #0699a6;
 }
 
