@@ -4,26 +4,18 @@
 
 - **Phone**: +380 958-293-584
 - **Email**: sereda.san@gmail.com
-- **Discord**: @sashua
-- **Location**: Ukraine (ready to relocate)
+- **Discord**: sashua#5468
 - [GitHub (sashua)](https://github.com/sashua), [Linked**in** (sashua)](https://linkedin.com/in/sashua)
 
 ## Full Stack JavaScript / React Developer
 
 ### Summary
 
-self-learner, independent and a great team player
-familiar with server-side technologies (NodeJS, Java, .NET, Python, Ruby)
-have some experience in Test Driven Development (TDD)
-Work on cutting-edge technologies
-Improve your skills and learn from top-notch engineers.
-Tackle tough problems and find creative ways to solve them.
-Write TDD and clean code.
-want to be a part of a large cross-functional team and long-term project
-willing to build products for real human beings
-Good knowledge of JavaScript,
-
-Flexible and attentive self-learner with extencive experience in IT support outsourcing. Want to switch my career and become a full-stack web developer. Keen to improve my skills in coding to create practical software with a heavy emphasis on great user experience.
+Flexible and attentive self-learner with extencive experience in
+IT support outsourcing. Want to switch my career and become a
+full-stack web developer. Keen to improve my skills in coding to
+create practical software with a heavy emphasis on great user
+experience.
 
 ## Skills
 
@@ -37,24 +29,20 @@ Flexible and attentive self-learner with extencive experience in IT support outs
 
 ### Languages
 
-- **English**: Pre-intermediate
-- **Ukrainian**: Native
-- **Russian**: Native
+- **English** - Pre-intermediate
+- **Ukrainian** - Native
+- **Russian** - Native
 
 ## Experience
 
-### 1C Software Developer
-
-**Slavutych-Service** _(Jan 2009 - Aug 2020)_
+### 1C Software Developer _(Jan 2009 - Aug 2020)_
 
 - Installed, updated, and administrated 1C/BAS software (v.7.7 to v.8.3, configurations for retail and bookkeeping, file and SQL databases)
 - Modified standard and non-standard 1C/BAS configurations, creating new printing forms, reports, documents
 - Integrated retail equipment with 1C/BAS configurations
 - Provided user training and consulting
 
-### IT Specialist
-
-**Slavutych-Service** _(Mar 2006 - Dec 2008)_
+### IT Specialist _(Mar 2006 - Dec 2008)_
 
 - Installed and administrated OS Windows, application software
 - Engineered, installed, configured and administrated Local Area Networks (TCP/IP, DHCP, DDNS, VPN)
@@ -71,7 +59,8 @@ Flexible and attentive self-learner with extencive experience in IT support outs
 
 ### RS-School CV#1. Markdown & Git
 
-[CV in markdown](https://sashua.github.io/rsschool-cv/cv)
+- [RS-School CV (Markdown)](https://sashua.github.io/rsschool-cv/cv)
+- [RS-School CV (HTML & CSS)](https://sashua.github.io/rsschool-cv/)
 
 ### Code example
 

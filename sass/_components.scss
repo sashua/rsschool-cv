@@ -39,10 +39,6 @@
     transform: translateX(0.25em);
   }
 }
-
-.code__content {
-  background-color: #fff;
-}
 // --- Typography start ---
 
 // === List start ===
@@ -51,11 +47,10 @@
 }
 
 .list__item {
-  margin-bottom: 6px;
+  line-height: 1.7;
 
-  &--markered::marker {
+  &--markered::before {
     content: "▪ ";
-    font-size: inherit;
     color: $accentColor;
   }
 }
