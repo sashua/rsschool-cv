@@ -4,178 +4,223 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alex Sereda</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <title>Alexander Sereda</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display:wght@900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/prism.css" />
+    <link rel="stylesheet" href="./styles/main.min.css" />
   </head>
 
   <body>
-    <header class="header outer">
-      <div class="inner">
-        <img
-          src="./images/matt-photo.png"
-          alt="Alex Sereda"
-          width="350"
-          height="350"
-        />
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__thumb">
+          <img
+            class="header__img"
+            src="./images/alexs.jpg"
+            alt="Alexander Sereda"
+            width="350"
+            height="350"
+          />
+        </div>
         <div>
-          <h2 class="secondary-title">Full Stack JavaScript Developer</h2>
-          <h1 class="primary-title">Alexander<br />Sereda</h1>
-          <a href="#footer">Contact Me</a>
+          <h2 class="secondary-title header__secondary-title">
+            Full Stack JavaScript Developer
+          </h2>
+          <h1 class="primary-title header__primary-title">
+            Alexander<br />Sereda
+          </h1>
+          <nav class="nav">
+            <a class="nav__link" href="#footer">Contact Me</a>
+          </nav>
         </div>
       </div>
     </header>
-    <main class="inner">
-      <div class="main-container">
-        <section class="about">
-          <h2 class="primary-title">About Me</h2>
-          <p>
-            Flexible and attentive self-learner with extencive experience in IT
-            support outsourcing. Want to switch my career and become a
-            full-stack web developer. Keen to improve my skills in coding to
-            create practical software with a heavy emphasis on great user
-            experience.
-          </p>
-        </section>
-        <section>
-          <h2 class="primary-title">Experience</h2>
-          <ul class="experience-list">
-            <li class="experience-item">
-              <div class="title-wrapper">
-                <h3 class="secondary-title">1C Software Developer</h3>
-                <p class="date-text">Jan 2010 - Present</p>
-              </div>
-              <ul>
-                <li>
-                  Installed, updated, and administrated 1C/BAS software (v.7.7
-                  to v.8.3, configurations for retail and bookkeeping, file and
-                  SQL databases)
-                </li>
-                <li>
-                  Modified standard and non-standard 1C/BAS configurations,
-                  creating new printing forms, reports, documents
-                </li>
-                <li>Integrated retail equipment with 1C/BAS configurations</li>
-                <li>Provided user training and consulting</li>
-              </ul>
-            </li>
-            <li class="experience-item">
-              <div class="title-wrapper">
-                <h3 class="secondary-title">IT Specialist</h3>
-                <p class="date-text">Mar 2006 - Dec 2009</p>
-              </div>
-              <ul>
-                <li>
-                  Installed and administrated OS Windows, application software
-                </li>
-                <li>
-                  Engineered, installed, configured and administrated Local Area
-                  Networks (TCP/IP, DHCP, DDNS, VPN)
-                </li>
-                <li>
-                  Connected to customer PC and configured retail and office
-                  equipment (cash register, scales, data collection terminals,
-                  printers, etc.)
-                </li>
-                <li>
-                  Engineered, installed and configured video surveillance
-                  systems
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h2 class="primary-title">Education</h2>
-          <div class="title-wrapper">
-            <h3 class="secondary-title">Master of Science in Electronics</h3>
-            <p class="date-text">Sep 2000 - Jul 2005</p>
-          </div>
-          <p>Kharkiv National University of Radio Electronics</p>
-        </section>
-      </div>
-      <div class="side-container">
-        <section>
-          <h2 class="secondary-title">Skillset</h2>
-          <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Webpack, Sass</li>
-            <li>React, Redux, React Native</li>
-            <li>Node.js, Express</li>
-            <li>PostgreSQL, MariaDB</li>
-            <li>Git, GitHub</li>
-          </ul>
-        </section>
-        <section>
-          <h2 class="secondary-title">Languages</h2>
-          <ul>
-            <li>English — Pre-intermediate</li>
-            <li>Ukrainian — Native</li>
-            <li>Russian — Native</li>
-          </ul>
-        </section>
-        <section>
-          <h2 class="secondary-title">Recent Works</h2>
-          <ul class="works-list">
-            <li>
-              <a
-                class="work-link"
-                href="https://sashua.github.io/rsschool-cv/cv"
-                >RS-School CV#1</a
-              >
-            </li>
-          </ul>
-        </section>
+
+    <!-- Main -->
+    <main class="main">
+      <div class="container main__container">
+        <!-- Main sections -->
+        <div class="main__main-wrap">
+          <section class="section main__main-section">
+            <h2 class="primary-title section__primary-title">About Me</h2>
+            <p class="text">
+              Flexible and attentive self-learner with extencive experience in
+              IT support outsourcing. Want to switch my career and become a
+              full-stack web developer. Keen to improve my skills in coding to
+              create practical software with a heavy emphasis on great user
+              experience.
+            </p>
+          </section>
+          <section class="section main__main-section">
+            <h2 class="primary-title section__primary-title">Experience</h2>
+            <ul class="section__list">
+              <li class="section__item">
+                <div class="section__title-wrap">
+                  <h3 class="secondary-title section__secondary-title">
+                    1C Software Developer
+                  </h3>
+                  <p class="section__title-info">Jan 2010 - Present</p>
+                </div>
+                <ul class="list">
+                  <li class="list__item list__item--markered">
+                    Installed, updated, and administrated 1C/BAS software (v.7.7
+                    to v.8.3, configurations for retail and bookkeeping, file
+                    and SQL databases)
+                  </li>
+                  <li class="list__item list__item--markered">
+                    Modified standard and non-standard 1C/BAS configurations,
+                    creating new printing forms, reports, documents
+                  </li>
+                  <li class="list__item list__item--markered">
+                    Integrated retail equipment with 1C/BAS configurations
+                  </li>
+                </ul>
+              </li>
+              <li class="section__item">
+                <div class="section__title-wrap">
+                  <h3 class="secondary-title section__secondary-title">
+                    IT Specialist
+                  </h3>
+                  <p class="section__title-info">Mar 2006 - Dec 2009</p>
+                </div>
+                <ul class="list">
+                  <li class="list__item list__item--markered">
+                    Installed and administrated OS Windows, apppcation software
+                  </li>
+                  <li class="list__item list__item--markered">
+                    Engineered, installed, configured and administrated Local
+                    Area Networks (TCP/IP, DHCP, DDNS, VPN)
+                  </li>
+                  <li class="list__item list__item--markered">
+                    Connected to customer PC and configured retail and office
+                    equipment (cash register, scales, data collection terminals,
+                    printers, etc.)
+                  </li>
+                  <li class="list__item list__item--markered">
+                    Engineered, installed and configured video surveillance
+                    systems
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section class="section main__main-section">
+            <h2 class="primary-title section__primary-title">Education</h2>
+            <div class="section__title-wrap">
+              <h3 class="secondary-title section__secondary-title">
+                Master of Science in Electronics
+              </h3>
+              <p class="section__title-info">Sep 2000 - Jul 2005</p>
+            </div>
+            <p class="text">Kharkiv National University of Radio Electronics</p>
+          </section>
+        </div>
+
+        <!-- Side sections -->
+        <div class="main__side-wrap">
+          <section class="section main__side-section">
+            <h2 class="secondary-title section__secondary-title">Skillset</h2>
+            <ul class="list">
+              <li class="list__item list__item--markered">
+                HTML, CSS, JavaScript
+              </li>
+              <li class="list__item list__item--markered">Webpack, Sass</li>
+              <li class="list__item list__item--markered">
+                React, Redux, React Native
+              </li>
+              <li class="list__item list__item--markered">Node.js, Express</li>
+              <li class="list__item list__item--markered">
+                PostgreSQL, MariaDB
+              </li>
+              <li class="list__item list__item--markered">Git, GitHub</li>
+            </ul>
+          </section>
+          <section class="section main__side-section">
+            <h2 class="secondary-title section__secondary-title">Languages</h2>
+            <ul class="list">
+              <li class="list__item">
+                <span class="list__accent">English</span> - Pre-intermediate
+              </li>
+              <li class="list__item">
+                <span class="list__accent">Ukrainian</span> - Native
+              </li>
+              <li class="list__item">
+                <span class="list__accent">Russian</span> - Native
+              </li>
+            </ul>
+          </section>
+          <section class="section main__side-section">
+            <h2 class="secondary-title section__secondary-title">
+              Recent Works
+            </h2>
+            <ul class="list">
+              <li class="list__item">
+                <a
+                  class="link"
+                  href="https://sashua.github.io/rsschool-cv/cv"
+                  target="_blank"
+                  >RS-School CV#1</a
+                >
+              </li>
+              <li class="list__item">
+                <a
+                  class="link"
+                  href="https://sashua.github.io/rsschool-cv/"
+                  target="_blank"
+                  >RS-School CV#2</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2 class="secondary-title">Code Style</h2>
+            <pre
+              class="code"
+            ><code class="code__content language-js">function arrayDiff(a, b) {
+    const result = [];
+    for (value of a) {
+      if (b.indexOf(value) &lt; 0) {
+        result.push(value);
+      }
+    }
+    return result;
+  }</code></pre>
+          </section>
+        </div>
       </div>
     </main>
-    <footer class="footer outer" id="footer">
-      <div class="inner">
-        <p class="primary-title">Get in touch!</p>
-        <ul class="contacts-list">
-          <li class="contact-item">
-            <a
-              class="contact-link primary-title"
-              href="mailto:youremail@email.com"
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container footer__container">
+        <p class="primary-title footer__primary-title">Get in touch!</p>
+        <ul class="contacts footer__contacts">
+          <li class="contacts__item">
+            <a class="link contacts__link" href="mailto:youremail@email.com"
               >sereda.san@gmail.com</a
             >
           </li>
-          <li class="contact-item">
-            <a class="contact-link primary-title" href="tel:+380958293584"
+          <li class="contacts__item">
+            <a class="link contacts__link" href="tel:+380958293584"
               >+380 958-293-584</a
             >
           </li>
         </ul>
-        <ul class="social-list">
-          <li class="social-item">
-            <a class="social-link" href="#!" aria-label="Discord">
-              <svg>
-                <use
-                  href="./images/icons.svg#icon-discord"
-                  width="32"
-                  height="32"
-                ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-item">
+        <ul class="social footer__social">
+          <li class="social__item">
             <a
-              class="social-link"
+              class="social__link"
               href="https://github.com/sashua"
               aria-label="Github"
+              target="_blank"
             >
-              <svg>
+              <svg class="social__icon">
                 <use
                   href="./images/icons.svg#icon-github"
                   width="32"
@@ -184,13 +229,14 @@
               </svg>
             </a>
           </li>
-          <li class="social-item">
+          <li class="social__item">
             <a
-              class="social-link"
+              class="social__link"
               href="https://linkedin.com/in/sashua"
               aria-label="Linkedin"
+              target="_blank"
             >
-              <svg>
+              <svg class="social__icon">
                 <use
                   href="./images/icons.svg#icon-linkedin"
                   width="32"
@@ -199,9 +245,14 @@
               </svg>
             </a>
           </li>
-          <li class="social-item">
-            <a class="social-link" href="#!" aria-label="Telegram">
-              <svg>
+          <li class="social__item">
+            <a
+              class="social__link"
+              href="https://telegram.me/seredasan"
+              aria-label="Telegram"
+              target="_blank"
+            >
+              <svg class="social__icon">
                 <use
                   href="./images/icons.svg#icon-telegram"
                   width="32"
@@ -212,6 +263,27 @@
           </li>
         </ul>
       </div>
+      <div class="copy footer__copy">
+        <span class="copy__info">
+          <svg class="copy__info-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-discord"></use>
+          </svg>
+          sashua#5468 © 2022
+        </span>
+        <a
+          class="copy__link"
+          href="https://rs.school/js/"
+          aria-label="The Rolling Scopes school JavaScript frontend course"
+          target="_blank"
+        >
+          <svg class="copy__link-icon" width="62" height="24">
+            <use href="./images/icons.svg#icon-rs"></use>
+          </svg>
+        </a>
+      </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/prism.js"></script>
   </body>
 </html>
