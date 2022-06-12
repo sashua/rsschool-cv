@@ -103,10 +103,6 @@ body {
           transform: translateX(0.25em);
 }
 
-.code__content {
-  background-color: #fff;
-}
-
 .list {
   list-style-position: inside;
 }
@@ -115,7 +111,7 @@ body {
   margin-bottom: 6px;
 }
 
-.list__item--markered::marker {
+.list__item--markered::before {
   content: "▪ ";
   font-size: inherit;
   color: #0699a6;
@@ -392,8 +388,7 @@ body {
 }
 
 .main__side-wrap {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
+  min-width: 300px;
 }
 
 .main__side-section {
