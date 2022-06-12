@@ -1,3 +1,4 @@
-# RS-School CV#2. HTML, CSS & Git Basics
+# RS-School CV#3. Cross-Check
 
+https://sashua.github.io/rsschool-cv/cv
 https://sashua.github.io/rsschool-cv/
