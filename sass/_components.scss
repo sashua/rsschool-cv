@@ -47,11 +47,10 @@
 }
 
 .list__item {
-  margin-bottom: 6px;
+  line-height: 1.7;
 
   &--markered::before {
     content: "▪ ";
-    font-size: inherit;
     color: $accentColor;
   }
 }
