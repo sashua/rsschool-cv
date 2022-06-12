@@ -1,0 +1,29 @@
+// === Variables start ===
+$primaryFont: "PT Sans Narrow", sans-serif;
+$secondaryFont: "Playfair Display", serif;
+
+$accentColor: #0699a6;
+$primaryColor: #000000;
+$secondaryColor: #9e8c6c;
+
+$primaryBgColor: #ffffff;
+$secondaryBgColor: rgba(158, 140, 108, 0.1);
+
+$transitionProperties: 200ms ease-out;
+$headerMask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' preserveAspectRatio='none'><polygon points='0,0 10,0 0,10'/></svg>");
+$footerMask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' preserveAspectRatio='none'><polygon points='0,10 10,10 10,0'/></svg>");
+// --- Variables end ---
+
+// === Base styles start ===
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $primaryFont;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+
+  color: $primaryColor;
+}
+// --- Base styles end ---
