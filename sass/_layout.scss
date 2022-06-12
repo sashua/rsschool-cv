@@ -124,7 +124,7 @@
 
 // === Side wrapper start ===
 .main__side-wrap {
-  flex-basis: 25%;
+  min-width: 300px;
 }
 
 .main__side-section {
