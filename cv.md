@@ -7,24 +7,21 @@
 - **Discord**: sashua#5468
 - [GitHub (sashua)](https://github.com/sashua), [Linked**in** (sashua)](https://linkedin.com/in/sashua)
 
-## Full Stack JavaScript / React Developer
+## Front-End Developer
 
 ### Summary
 
 Flexible and attentive self-learner with extencive experience in
 IT support outsourcing. Want to switch my career and become a
-full-stack web developer. Keen to improve my skills in coding to
+front-end web developer. Keen to improve my skills in coding to
 create practical software with a heavy emphasis on great user
 experience.
 
 ## Skills
 
 - HTML, CSS, JavaScript
-- Webpack, Sass, SCSS
+- Webpack, SCSS
 - React, Redux, React Native
-- Node.js, Express
-- Python, FastAPI, Flask
-- PostgreSQL, MariaDB
 - Git, GitHub
 
 ### Languages
@@ -59,25 +56,16 @@ experience.
 
 ### RS-School CV#1. Markdown & Git
 
-- [RS-School CV (Markdown)](https://sashua.github.io/rsschool-cv/cv)
-- [RS-School CV (HTML & CSS)](https://sashua.github.io/rsschool-cv/)
+- [Eldritch Horror](https://sashua-codejam-eldritch.netlify.app/)
+- [Momentum](https://sashua-momentum.netlify.app/)
 
 ### Code example
 
-```python
-import csv
-from collections import namedtuple
-
-class FancyReader:
-    def __init__(self, lines, fieldnames=None):
-        self.reader = csv.reader(lines)
-        self.Row = namedtuple('Row', ' '.join(fieldnames or next(self.reader)))
-        self.line_num = 0 if fieldnames else 1
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        self.line_num += 1
-        return self.Row(*next(self.reader))
+```js
+function towelSort(matrix) {
+  matrix = matrix || [];
+  return matrix.flatMap((row, i) => {
+    return i % 2 ? row.reverse() : row;
+  });
+}
 ```
