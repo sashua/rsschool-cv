@@ -7,38 +7,44 @@
 - **Discord**: sashua#5468
 - [GitHub (sashua)](https://github.com/sashua), [Linked**in** (sashua)](https://linkedin.com/in/sashua)
 
-## Full Stack JavaScript / React Developer
+## Front-End Developer
+
+### Summary
+
+Flexible and attentive self-learner with extencive experience in
+IT support outsourcing. Want to switch my career and become a
+front-end web developer. Keen to improve my skills in coding to
+create practical software with a heavy emphasis on great user
+experience.
 
 ## Skills
 
 - HTML, CSS, JavaScript
-- Webpack, Sass, SCSS
+- Webpack, SCSS
 - React, Redux, React Native
-- Node.js, Express
-- Python, FastAPI, Flask
-- RESTful API, JSON API, gRPC
-- PostgreSQL, MariaDB
 - Git, GitHub
 
 ### Languages
 
-- **English**: Pre-intermediate
-- **Ukrainian**: Native
-- **Russian**: Native
+- **English** - Pre-intermediate
+- **Ukrainian** - Native
+- **Russian** - Native
 
 ## Experience
 
-### 1C Software Developer
+### 1C Software Developer _(Jan 2009 - Aug 2020)_
 
-**Slavutych-Service** _(Jan 2009 - Aug 2020)_
+- Installed, updated, and administrated 1C/BAS software (v.7.7 to v.8.3, configurations for retail and bookkeeping, file and SQL databases)
+- Modified standard and non-standard 1C/BAS configurations, creating new printing forms, reports, documents
+- Integrated retail equipment with 1C/BAS configurations
+- Provided user training and consulting
 
-### Embedded Software Developer
+### IT Specialist _(Mar 2006 - Dec 2008)_
 
-**Slavutych-Service** _(Mar 2006 - Dec 2008)_
-
-### IT Specialist
-
-**Slavutych-Service** _(Oct 2005 - Feb 2006)_
+- Installed and administrated OS Windows, application software
+- Engineered, installed, configured and administrated Local Area Networks (TCP/IP, DHCP, DDNS, VPN)
+- Connected to customer PC and configured retail and office equipment (cash register, scales, data collection terminals, printers, etc.)
+- Engineered, installed and configured video surveillance systems
 
 ## Education
 
@@ -50,24 +56,16 @@
 
 ### RS-School CV#1. Markdown & Git
 
-[CV in markdown](https://sashua.github.io/rsschool-cv/cv)
+- [Eldritch Horror](https://sashua-codejam-eldritch.netlify.app/)
+- [Momentum](https://sashua-momentum.netlify.app/)
 
 ### Code example
 
-```python
-import csv
-from collections import namedtuple
-
-class FancyReader:
-    def __init__(self, lines, fieldnames=None):
-        self.reader = csv.reader(lines)
-        self.Row = namedtuple('Row', ' '.join(fieldnames or next(self.reader)))
-        self.line_num = 0 if fieldnames else 1
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        self.line_num += 1
-        return self.Row(*next(self.reader))
+```js
+function towelSort(matrix) {
+  matrix = matrix || [];
+  return matrix.flatMap((row, i) => {
+    return i % 2 ? row.reverse() : row;
+  });
+}
 ```
